@@ -7,6 +7,49 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Getting Started
+- Clone repo
+  ```bash
+  git@github.com:syntaxlexx/laravel-inertia-and-filamentphp.git
+  ```
+- Install php dependencies
+  ```bash
+  composer install
+  ```
+- Install pnpm dependencies
+  ```bash
+  pnpm install
+  ```
+- Run migrations
+  ```bash
+  php artisan migrate
+  ```
+- Run seeder
+  ```bash
+  php artisan db:seed
+  ```
+- Logins
+  ```bash
+  # admin
+  email: admin@example.com
+  password: admin
+
+  # user
+  email: user@example.com
+  password: user
+  ```
+
+#### Hints
+- Use zustand with persistent mode enabled so as to maintain state between any page reloads.
+
+### TODO List
+- [ ] Install shadcn-ui
+- [ ] Better Landing page
+- [ ] About us page
+- [ ] Contact us
+- [ ] Live chat page via [Laravel Reverb](https://reverb.laravel.com/)
+- [ ] SEO management
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
